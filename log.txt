@@ -1,0 +1,42 @@
+UserID: 1393150808 | Time: 2024-07-06 04:40:34.687979 | Command: /bgmi | Target: 20.198.111.53 | Port: 22196 | Time: 180
+Username: @Thakor7359
+Target: 20.198.111.53
+Port: 22196
+Time: 180
+
+UserID: 1393150808 | Time: 2024-07-06 04:50:52.363545 | Command: /bgmi | Target: 52.140.43.157 | Port: 26766 | Time: 300
+Username: @Thakor7359
+Target: 52.140.43.157
+Port: 26766
+Time: 300
+
+UserID: 1393150808 | Time: 2024-07-06 04:50:58.410016 | Command: /bgmi | Target: 52.140.43.157 | Port: 26766 | Time: 300
+Username: @Thakor7359
+Target: 52.140.43.157
+Port: 26766
+Time: 300
+
+UserID: 1393150808 | Time: 2024-07-06 04:57:21.116935 | Command: /bgmi | Target: 52.140.43.157 | Port: 26766 | Time: 300
+Username: @Thakor7359
+Target: 52.140.43.157
+Port: 26766
+Time: 300
+
+UserID: 1393150808 | Time: 2024-07-06 05:08:04.389993 | Command: /bgmi | Target: 20.235.91.249 | Port: 20682 | Time: 180
+Username: @Thakor7359
+Target: 20.235.91.249
+Port: 20682
+Time: 180
+
+UserID: 1393150808 | Time: 2024-07-06 05:09:48.703757 | Command: /bgmi | Target: 20.235.91.249 | Port: 20682 | Time: 500
+Username: @Thakor7359
+Target: 20.235.91.249
+Port: 20682
+Time: 500
+
+UserID: 1393150808 | Time: 2024-07-06 05:11:53.142195 | Command: /bgmi | Target: 20.235.91.249 | Port: 20682 | Time: 500
+Username: @Thakor7359
+Target: 20.235.91.249
+Port: 20682
+Time: 500
+
