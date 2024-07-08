@@ -285,7 +285,7 @@ def start_attack_reply(message, target, port, time):
 # Dictionary to store the last time each user ran the /bgmi command
 bgmi_cooldown = {}
 
-COOLDOWN_TIME =0
+COOLDOWN_TIME =2
 
 # Handler for /bgmi command
 @bot.message_handler(commands=['bgmi'])
@@ -296,7 +296,7 @@ def handle_bgmi(message):
         if user_id not in admin_id:
             # Check if the user has run the command before and is still within the cooldown period
             if user_id in bgmi_cooldown and (datetime.datetime.now() - bgmi_cooldown[user_id]).seconds < COOLDOWN_TIME:
-                response = "You Are On Cooldown ❌. Please Wait 10sec Before Running The /bgmi Command Again."
+                response = "You Are On Cooldown ❌. Please Wait 2sec Before Running The /bgmi Command Again."
                 bot.reply_to(message, response)
                 return
             # Update the last time the user ran the command
@@ -375,7 +375,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @venomXcrazy'''
+✅BUY :- @ig_sanid_01'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -384,7 +384,7 @@ def welcome_rules(message):
     response = f'''{user_name} Please Follow These Rules ⚠️:
 
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
-2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
+2. Dont Run 100 Attacks At Same Time Becz If U Then U Got Banned From Bot.
 3. MAKE SURE YOU JOINED https://t.me/venomcha7 OTHERWISE NOT WORK
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
     bot.reply_to(message, response)
